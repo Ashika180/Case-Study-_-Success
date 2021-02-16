@@ -1,0 +1,99 @@
+#img1{
+width: 100px;
+height: 60px;
+}
+
+body{
+    background: linear-gradient(to top, rgb(174, 98, 177), rgb(139, 14, 91));
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1000000;
+    text-align: center;
+}
+
+#test{
+    text-align: left; 
+}
+
+#res1{
+    background-color: grey;
+    width: 600px;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+.image-section{
+    display:flex;
+    justify-content:center;
+    height: 350px;
+}
+.first-image{
+    margin-right:20px;
+    margin-left:20px;
+    width: 650px;
+    background-color: rgb(255, 199, 199); 
+    height: 500px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    margin-top: 50px;
+    box-shadow: 10px 10px 18px rgb(248, 140, 160);
+}
+
+.res{
+    color: rgb(255, 4, 87);
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: 30px;
+}
+
+
+
+.res1{
+    background: grey;
+border-radius: 10px;
+margin-left: 30px;
+    width: 600px;
+}
+
+.copyright_footer{
+    position: fixed;
+    color: grey;
+    background: white;
+    bottom: 0px;
+width: 100%;
+text-align: center;
+line-height: 3;
+font-family: 'Special Elite', cursive;
+font-size: 15.5px;
+}
+
+.prediction{
+    border: grey, 2px, solid;
+    border-radius: 30px;
+    background: pink;
+}
+
+#prediction{
+    color: white;
+}
+
+#efficient_ans{
+    font-size: 18px;
+    color: black;
+}
+.Result{
+    margin-top: 100px; 
+    width: 1000px; 
+    height: 150px; 
+    background-color: rgb(255, 75, 105); 
+    box-shadow: 5px 5px 18px rgb(255, 0, 43);
+    font-family: 'Special Elite', cursive;
+    font-size: 23px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    padding: 20px;
+}
